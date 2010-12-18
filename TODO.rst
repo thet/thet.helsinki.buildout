@@ -12,9 +12,15 @@ OK * plone.app.discussion
 OK * alm.solrindex
 * ...
 
+XYZ
+===
+* archetypes vs. dexterity
+  - dexterity & multilinguality?
+  - dexterity & folderishtypes?
+* yafowil integration?
+
 FUNKTIONALITÄTEN
 ================
-
 * bannerverwaltung
 * social bookmarks
 * rss feed integration von CBA und freie-radios.net
@@ -37,6 +43,8 @@ now playing
 kommentarfunktion
 -----------------
 * plone.app.discussion integration
+or
+* collective.disqus integration
 
 kalender ansichten
 ------------------
