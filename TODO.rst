@@ -16,7 +16,9 @@ XYZ
 ===
 * archetypes vs. dexterity
   - dexterity & multilinguality?
+        -> not supported yet (plone.multilinguality is in progress)
   - dexterity & folderishtypes?
+  -> using archetypes for now.
 * yafowil integration?
 
 FUNKTIONALITÄTEN
