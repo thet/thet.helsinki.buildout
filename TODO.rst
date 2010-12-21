@@ -2,14 +2,34 @@
 Radio Helsinki Website TODO
 ===========================
 
+content types
+=============
+additional
+----------
+* project
+* teaser
+
+standard
+--------
+* news item
+* page
+* event
+* folder
+* image
+* file
 
 ADDONS OVERVIEW
 ===============
-* Products.LinguaPlone
-OK * plone.app.discussion
-* zettwerk.fullcalendar
-* collective.flowplayer
 OK * alm.solrindex
+OK * plone.app.discussion
+OK * collective.disqus
+
+OK * collective.folderishtypes
+OK * collective.folderishtraverse
+OK * Products.LinguaPlone
+OK * zettwerk.fullcalendar
+OK * collective.flowplayer
+OK * collective.gallery
 * ...
 
 XYZ
@@ -18,6 +38,7 @@ XYZ
   - dexterity & multilinguality?
         -> not supported yet (plone.multilinguality is in progress)
   - dexterity & folderishtypes?
+  - dexterity does not support image scaling for now
   -> using archetypes for now.
 * yafowil integration?
 
@@ -60,6 +81,11 @@ multilingualität
 audio/video integration
 -----------------------
 * collective.flowplayer
+
+gallery
+-------
+* collective.js.slimbox2
+* collective.gallery
 
 solr suche
 ----------
