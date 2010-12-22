@@ -30,6 +30,8 @@ OK * Products.LinguaPlone
 OK * zettwerk.fullcalendar
 OK * collective.flowplayer
 OK * collective.gallery
+OK * collective.uploadify
+* collective.quickupload
 * ...
 
 XYZ
