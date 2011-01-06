@@ -9,6 +9,8 @@ additional
 * project
 * teaser
 
+* gallery -> folder with album/gallery view
+
 standard
 --------
 * news item
@@ -17,6 +19,17 @@ standard
 * folder
 * image
 * file
+
+portlets / viewlets
+-------------------
+* collective.gallery
+  - display all subfolders with galleryview enabled
+  - searchpath: portal_root, context
+  - if galleries == 1: 5 rnd fotos
+  - if galleries == 2: 3 rnd fotos
+  - if galleries == 3: 2 rnd fotos
+  - if galleries == 4: 1 rnd foto
+  - if galleries > 5: 5 rnd galleries
 
 ADDONS OVERVIEW
 ===============
@@ -31,7 +44,7 @@ OK * zettwerk.fullcalendar
 OK * collective.flowplayer
 OK * collective.gallery
 OK * collective.uploadify
-* collective.quickupload
+NO * collective.quickupload
 * ...
 
 XYZ
@@ -58,7 +71,7 @@ theming
 
 now playing
 -----------
-* kommunikationsprotokoll
+OK * kommunikationsprotokoll
 * js/zope3 view client
 * server
 
@@ -67,9 +80,9 @@ now playing
 
 kommentarfunktion
 -----------------
-* plone.app.discussion integration
+NO * plone.app.discussion integration
 or
-* collective.disqus integration
+OK * collective.disqus integration
 
 kalender ansichten
 ------------------
