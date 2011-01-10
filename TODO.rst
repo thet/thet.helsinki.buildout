@@ -22,14 +22,9 @@ standard
 
 portlets / viewlets
 -------------------
-* collective.gallery
+OK * collective.gallery
   - display all subfolders with galleryview enabled
   - searchpath: portal_root, context
-  - if galleries == 1: 5 rnd fotos
-  - if galleries == 2: 3 rnd fotos
-  - if galleries == 3: 2 rnd fotos
-  - if galleries == 4: 1 rnd foto
-  - if galleries > 5: 5 rnd galleries
 
 ADDONS OVERVIEW
 ===============
