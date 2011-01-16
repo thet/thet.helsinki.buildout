@@ -22,8 +22,9 @@ How to install
 --------------
 $ python bootstrap.py -d -c dev.cfg
 $ ./bin/buildout -c dev.cfg
-$ ./bin/solr-instance start
-$ ./bin/instance fg # foreground mode
+$ ./bin/solr-instance start # Solr search server
+$ ./bin/zeoserver start # Zope Enterprise Objects Database Server
+$ ./bin/instance fg # Zope instance, foreground mode
 
 * Then Point your webbrowser to http://localhost:8080/ (username admin,
   password admin) and install a Plone instance.
