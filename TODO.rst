@@ -9,7 +9,7 @@ additional
 * project
 * teaser
 
-* gallery -> folder with album/gallery view
+OK * gallery -> folder with album/gallery view
 
 standard
 --------
@@ -25,6 +25,19 @@ portlets / viewlets
 OK * collective.gallery
   - display all subfolders with galleryview enabled
   - searchpath: portal_root, context
+
+* RSS freieradios
+* RSS cba
+
+* social bookmarks
+  + bookmarks frei wählbar + sortierbar
+  + bookmark service frei wählbar
+  + eigener bookmark service
+
+* tagcloud / filter
+
+* banner
+
 
 ADDONS OVERVIEW
 ===============
