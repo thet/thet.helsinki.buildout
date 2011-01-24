@@ -29,7 +29,7 @@ OK * collective.gallery
 * RSS freieradios
 * RSS cba
 
-* social bookmarks
+OK * social bookmarks
   + bookmarks frei wählbar + sortierbar
   + bookmark service frei wählbar
   + eigener bookmark service
@@ -37,6 +37,19 @@ OK * collective.gallery
 * tagcloud / filter
 
 * banner
+  content type: Teaser, teaser
+    - image
+    - alternative image (other layout)
+    X folderish: images, files
+    - text: richtextwidget
+    - link: reference, href
+    - from, until dates
+    - importance: 1,2,3,4,5
+  portlet collective.teaser.portlet, teaser_portlet
+    - show importance levels: multiselection
+    - prefer altimage
+    - image layout
+    werden mehrere teaser portlets angezeigt, sollen in allen unterschiedliche teaser angezeigt werden oder gar nicht. teaser id kann über REQUEST var gesetzt werden.
 
 
 ADDONS OVERVIEW
