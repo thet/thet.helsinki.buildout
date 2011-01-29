@@ -4,6 +4,7 @@ develop-eggs
 eggs
 parts
 src
+static
 var
 *.pyc
 *.pyo
