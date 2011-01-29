@@ -7,7 +7,7 @@ content types
 additional
 ----------
 * project
-* teaser
+OK * teaser
 
 OK * gallery -> folder with album/gallery view
 
@@ -27,7 +27,9 @@ OK * collective.gallery
   - searchpath: portal_root, context
 
 * RSS freieradios
+  http://www.freie-radios.net/portal/podcast.php?radio=43&rss
 * RSS cba
+  http://cba.fro.at/stationsrss/4
 
 OK * social bookmarks
   + bookmarks frei wählbar + sortierbar
@@ -36,7 +38,7 @@ OK * social bookmarks
 
 * tagcloud / filter
 
-* banner
+OK * banner
   content type: Teaser, teaser
     - image
     - alternative image (other layout)
