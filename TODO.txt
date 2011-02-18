@@ -2,11 +2,20 @@
 Radio Helsinki Website TODO
 ===========================
 
+WHAT NEXT?
+==========
+* find a place to put news items in. configure display of news items.
+* find a place to put teasers in.
+* configure all content types, if they don't look appropriate.
+* make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
+
+
+
 content types
 =============
 additional
 ----------
-* project
+OK * project
 OK * teaser
 
 OK * gallery -> folder with album/gallery view
@@ -23,12 +32,12 @@ standard
 portlets / viewlets
 -------------------
 OK * collective.gallery
-  - display all subfolders with galleryview enabled
-  - searchpath: portal_root, context
+OK  - display all subfolders with galleryview enabled
+OK  - searchpath: portal_root, context
 
-* RSS freieradios
+OK * RSS freieradios
   http://www.freie-radios.net/portal/podcast.php?radio=43&rss
-* RSS cba
+OK * RSS cba
   http://cba.fro.at/stationsrss/4
 
 OK * social bookmarks
@@ -82,15 +91,15 @@ XYZ
 
 FUNKTIONALITÄTEN
 ================
-* bannerverwaltung
-* social bookmarks
-* rss feed integration von CBA und freie-radios.net
+OK * bannerverwaltung
+OK * social bookmarks
+OK * rss feed integration von CBA und freie-radios.net
 
 theming
 -------
-* deliverance / xdv integration
-* rules file
-* theme file
+OK * deliverance / xdv integration
+OK * rules file
+OK * theme file
 
 now playing
 -----------
@@ -114,7 +123,7 @@ kalender ansichten
 
 multilingualität
 ----------------
-* Products.LinugaPlone integation
+OK * Products.LinugaPlone integation
 
 audio/video integration
 -----------------------
@@ -123,7 +132,7 @@ audio/video integration
 gallery
 -------
 * collective.js.slimbox2
-* collective.gallery
+OK * collective.gallery
 
 solr suche
 ----------
