@@ -9,6 +9,8 @@ WHAT NEXT?
 * configure all content types, if they don't look appropriate.
 * make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
 
+* collective.folderishtypes: let CT derive all other interfaces too... currently they are overwritten.
+
 
 
 content types
