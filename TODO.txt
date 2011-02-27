@@ -10,6 +10,7 @@ WHAT NEXT?
 
 * find a place to put news items in. configure display of news items.
 * find a place to put teasers in.
+OK * show main teaser on correct place
 * configure all content types, if they don't look appropriate.
 * make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
 
@@ -18,6 +19,9 @@ WHAT NEXT?
 
 * configure folderishtraverse for project/aktuelles
 
+PLIPS
+=====
+* *box instead of image_view_fullscreen
 
 BUGS
 ====
