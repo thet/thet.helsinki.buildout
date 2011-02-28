@@ -12,12 +12,19 @@ WHAT NEXT?
 * find a place to put teasers in.
 OK * show main teaser on correct place
 * configure all content types, if they don't look appropriate.
+
 * make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
 
 * collective.folderishtypes: let CT derive all other interfaces too... currently they are overwritten.
 * backport changes to folder_listing and folder_summary_view to plone
 
 * configure folderishtraverse for project/aktuelles
+
+
+Portlet configuration
+=====================
+
+
 
 PLIPS
 =====
