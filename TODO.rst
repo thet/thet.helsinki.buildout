@@ -10,6 +10,8 @@ WHAT NEXT?
 
 * livestream: collective.nakedviews -> views without plone context
 
+* configure c.gallery to use correct sizes
+
 OK * livestream seite
 * now playing
 * programmverwaltung
