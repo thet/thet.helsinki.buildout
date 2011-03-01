@@ -4,31 +4,87 @@ Radio Helsinki Website TODO
 
 WHAT NEXT?
 ==========
-* livestream seite
+
+* https login
+* users, groups, rights and config
+
+* livestream: collective.nakedviews -> views without plone context
+
+OK * livestream seite
 * now playing
 * programmverwaltung
 
-* find a place to put news items in. configure display of news items.
+OK * find a place to put news items in. configure display of news items.
 * find a place to put teasers in.
 OK * show main teaser on correct place
 * configure all content types, if they don't look appropriate.
 
-* make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
-
+OK * make an "available" adapter for portlets. e.g. adapt context,manager,... show portlet only if context = ISite
 * collective.folderishtypes: let CT derive all other interfaces too... currently they are overwritten.
 * backport changes to folder_listing and folder_summary_view to plone
 
-* configure folderishtraverse for project/aktuelles
+OK * configure folderishtraverse for project/aktuelles
 
+OK * configure portlets display on right/left side
+Ok * navigation
+    don't show current item in path, if it's in typesNotToList
+    navtree_properties --> showAllParents = False
 
 Portlet configuration
 =====================
 
+all
+---
+left:
+    navigation portlet
+    recent
+    revisions
+
+startsite news
+--------------
+left:
+    teaser portlet
+    programm derzeit
+    sendungen zum nachhören
+       rss portlet 1
+       rss portlet 2
+    programmhinweise
+
+right:
+    "unterstütze uns"
+    "find us on facebook"
+    "mach mit"
+
+any subsite
+-----------
+right:
+    teaser portlet
+    social bookmarks portlet
+
+programm
+--------
+left:
+    programmkalender
+    programmhinweise
+    (programmfilter)
+
+right:
+    legende
+
+projekte
+--------
+left:
+    navigationsportlet 2 - projekte
+
+info
+----
+right:
+    gallery portlet
 
 
 PLIPS
 =====
-* *box instead of image_view_fullscreen
+* box instead of image_view_fullscreen
 
 BUGS
 ====
