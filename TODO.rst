@@ -5,6 +5,8 @@ Radio Helsinki Website TODO
 WHAT NEXT?
 ==========
 
+* teaser titel umlaute utf error
+* teaser edit screen importance discplays only number:
 * https login
 * users, groups, rights and config
 
@@ -82,34 +84,6 @@ info
 ----
 right:
     gallery portlet
-
-
-PLIPS
-=====
-* box instead of image_view_fullscreen
-
-BUGS
-====
-occurs when browsing start-indexes
-2010,1,1,0,0,'GMT+1' somehow invalid caluclated. maybe via toint function?
-
-2011-02-25 13:35:29 ERROR Zope.SiteErrorLog 1298637329.230.0661196253918 http://localhost:8080/radio-helsinki/helsinki/portal_catalog/Indexes/start/manage_browse
-Traceback (innermost last):
-  Module ZPublisher.Publish, line 127, in publish
-  Module ZPublisher.mapply, line 77, in mapply
-  Module ZPublisher.Publish, line 47, in call_object
-  Module Shared.DC.Scripts.Bindings, line 324, in __call__
-  Module Shared.DC.Scripts.Bindings, line 361, in _bindAndExec
-  Module App.special_dtml, line 185, in _exec
-  Module DocumentTemplate.DT_Let, line 77, in render
-  Module DocumentTemplate.DT_In, line 606, in renderwb
-  Module DocumentTemplate.DT_Util, line 202, in eval
-   - __traceback_info__: DateTime
-  Module <string>, line 1, in <module>
-  Module DateTime.DateTime, line 350, in __init__
-  Module DateTime.DateTime, line 702, in _parse_args
-DateError: Invalid date: (2010, 1, 0, 23, 0, 0, 'UTC')
-
 
 
 content types
