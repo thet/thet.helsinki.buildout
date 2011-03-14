@@ -2,10 +2,71 @@
 Radio Helsinki Website TODO
 ===========================
 
+ie html5 javascript not needed ATM
+----------------------------------
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+
 WHAT NEXT?
 ==========
 
-* teaser titel umlaute utf error
+OK * teaser und projekt - selbes icon - ändern
+OK * ical/vcal bei projekten rausnehmen
+* suche: suchseite soll mit wildcards funktionieren.
+* benutzer: wegschalten
+* benutzer: keine rechte projekte anzulegen?
+* kalenderblatt - not styled
+* projekte: kein hinzüfügen menü?
+
+
+openid login
+------------
+http://ldap.helsinki.at:8000/
+http://ldap.helsinki.at:8000/login
+http://ldap.helsinki.at:8000/id/thet
+
+
+programmverwaltung
+------------------
+OK * dateutil: daily option
+* ceiiling date for recurrence?
+
+easy 1 .. 3 hard
+* deliverance integration 10h
+* week view           3
+* day view            3
+* calendar block      2
+* now playing         2
+* programmhinweise    2
+* filtermöglichkeiten 2
+* solr integration    1
+* disqus integration  1
+
+* evtl rss feeds      2
+* evtl ical downloads 3
+* WYSIWYG editor integration für textfelder (am besten tinyMCE).
+
+
+vt plone basierte lösung
+------------------------
+* gleiches eingabeinterface
+* gleicher login
+* kommentare direkt helsinki.at
+* bessere verlinkungsmöglichkeiten.. referenzieren von objekten
+
+nt plone basierte lösung
+------------------------
+* plone.app.event recurrence = voraussetzung. jquery.recurrenceplugin fehlt
+  noch.
+* langsamer
+
+
+cms
+---
+OK * teaser titel umlaute utf error
 * teaser edit screen importance discplays only number:
 * https login
 * users, groups, rights and config
@@ -16,7 +77,6 @@ WHAT NEXT?
 
 OK * livestream seite
 * now playing
-* programmverwaltung
 
 OK * find a place to put news items in. configure display of news items.
 * find a place to put teasers in.
