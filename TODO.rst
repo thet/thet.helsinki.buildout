@@ -13,12 +13,15 @@ ie html5 javascript not needed ATM
 WHAT NEXT?
 ==========
 
+* metamenu active states
+* footer
+
 OK * teaser und projekt - selbes icon - ändern
 OK * ical/vcal bei projekten rausnehmen
 * suche: suchseite soll mit wildcards funktionieren.
-* benutzer: wegschalten
-* benutzer: keine rechte projekte anzulegen?
-* kalenderblatt - not styled
+OK * benutzer: wegschalten
+OK * benutzer: keine rechte projekte anzulegen?
+OK * kalenderblatt - not styled
 * projekte: kein hinzüfügen menü?
 
 
