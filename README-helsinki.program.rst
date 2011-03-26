@@ -6,6 +6,10 @@ debian dependencies
 
 $ apt-get install libmysqlclient-dev mysql-server
 
+
+database preparation
+--------------------
+
 * prepare MYSQL database for development
   $ mysql -uroot -p
   mysql> CREATE DATABASE helsinki;
@@ -22,8 +26,11 @@ $ apt-get install libmysqlclient-dev mysql-server
   readonly: $ git://github.com/thet/helsinki.buildout.program.git
 
 
+helsinki.program django application standalone install
+------------------------------------------------------
+
 * install the application
-    $ python-2.6 bootrap.py -d
+    $ python-2.6 bootrap.py -d -c helsinki.program.cfg
 
     $ ./bin/buildout
 
