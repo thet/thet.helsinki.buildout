@@ -13,6 +13,13 @@ ie html5 javascript not needed ATM
 WHAT NEXT?
 ==========
 
+deliverance fixes
+OK 1) the policy for when subrequests to Deliverance's inner URL-space should be sent back out to Deliverance
+OK 2) the headers sent in those subrequests
+OK 3) the DeliveranceMiddleware instance used in deliverance-proxy
+
+
+
 * metamenu active states
 * footer
 
@@ -72,7 +79,7 @@ cms
 OK * teaser titel umlaute utf error
 * teaser edit screen importance discplays only number:
 * https login
-* users, groups, rights and config
+OK * users, groups, rights and config
 
 * livestream: collective.nakedviews -> views without plone context
 
