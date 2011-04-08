@@ -13,6 +13,12 @@ ie html5 javascript not needed ATM
 WHAT NEXT?
 ==========
 
+impressum
+kontakt aus metamenu weg
+--> check it for live site too!
+
+reverse order of news article, and in other places
+
 deliverance fixes
 OK 1) the policy for when subrequests to Deliverance's inner URL-space should be sent back out to Deliverance
 OK 2) the headers sent in those subrequests
