@@ -19,6 +19,8 @@ OK 2) the headers sent in those subrequests
 OK 3) the DeliveranceMiddleware instance used in deliverance-proxy
 
 
+OK * public.css removed by deliverance (disable grouping), so that backend is
+  still styled
 
 * metamenu active states
 * footer
