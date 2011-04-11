@@ -9,12 +9,32 @@ ie html5 javascript not needed ATM
   <![endif]-->
 
 
+protokoll 29.03.11
+==================
+Homepage
+========
+Inhalte müssen eingetragen werden!!!
+- Leo nachfragen, wann allgemeiner Text kommt. Robin macht.
+- Gremien: in "Arbeitsbereiche" umbenennen: Moke
+- Unterstützen: Robin
+- Presse: Hannes bitte Logos reinstellen und in "Presse" in "Logo" umbenennen. Danke!
+- Startseite: Hannes und Nene schreiben Eröffnungstext.
+- Projekte: 
+alte Projekte: Radiodialoge (Angela), MONA (Moke), Nicaragua (Walt), Tagungen (Gudrun), Sex (Robin), Tod (Robin), Annenviertel (Mak), Afrikaschwerpunkt (Robin), 16Tage (Robin), 8.März (Robin).
+aktuelle Projekte: WWA (Robin)
+geplante Projekte: 4elements (Gudrun informiert Imre), elevate (Mak), Lendwirbel (Robin Sagt Günther), Chiala (Gudrun)
+
+An Hannes: cool wäre eine Unterscheidung zwischen Themenschwerpunkten, Festvalbegleitung, Eigene Projekte sowie die Ordnung nach Jahreszahlen. Schön wäre es, wenn man das dann danach sortieren könnte.
+
+
 
 WHAT NEXT?
 ==========
 
-impressum
-kontakt aus metamenu weg
+* programmverwaltungslink unter /programm verlinkt nicht.
+
+OK impressum
+OK kontakt aus metamenu weg
 --> check it for live site too!
 
 reverse order of news article, and in other places
