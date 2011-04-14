@@ -28,16 +28,26 @@ An Hannes: cool wäre eine Unterscheidung zwischen Themenschwerpunkten, Festvalb
 
 
 
+deployment
+==========
+catalog clear and rebuild
+
 WHAT NEXT?
 ==========
 
+* reverse order of in folders news article, and in other places
 * programmverwaltungslink unter /programm verlinkt nicht.
+* metamenu active states
+OK * footer
+
+
+OK * content icons css based
+
 
 OK impressum
 OK kontakt aus metamenu weg
 --> check it for live site too!
 
-reverse order of news article, and in other places
 
 deliverance fixes
 OK 1) the policy for when subrequests to Deliverance's inner URL-space should be sent back out to Deliverance
@@ -47,9 +57,6 @@ OK 3) the DeliveranceMiddleware instance used in deliverance-proxy
 
 OK * public.css removed by deliverance (disable grouping), so that backend is
   still styled
-
-* metamenu active states
-* footer
 
 OK * teaser und projekt - selbes icon - ändern
 OK * ical/vcal bei projekten rausnehmen
