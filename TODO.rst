@@ -2,6 +2,64 @@
 Radio Helsinki Website TODO
 ===========================
 
+TODO fin
+========
+
+high
+----
+* now playing
+* solr django/plone integration
+* https login
+
+mid
+---
+* remove LinguaPlone and language viewlet - not needed ATM
+* remove collective.folderishtraverse - bad usability in admin mode
+    * projekte: kein hinzüfügen menü?
+* navigation: new portlet with support for displaying default items
+* folder_summary_view: reverse order and customization
+* project nav: alphabetical? in order of start-date? grouped by year?
+* programmverwaltungslink unter /programm verlinkt nicht.
+* metamenu active states
+* find a place to put teasers in.
+* configure c.gallery to use correct sizes
+* configure all content types, if they don't look appropriate.
+* zettwerk.fullcalendar
+* collective.flowplayer
+
+projekte
+........
+- An Hannes: cool wäre eine Unterscheidung zwischen Themenschwerpunkten,
+  Festvalbegleitung, Eigene Projekte sowie die Ordnung nach Jahreszahlen.
+  Schön wäre es, wenn man das dann danach sortieren könnte.
+
+
+
+low
+---
+* suche: suchseite soll mit wildcards funktionieren.
+* livestream: collective.nakedviews -> views without plone context
+* teaser edit screen importance displays only number
+* collective.folderishtypes: let CT derive all other interfaces too... currently they are overwritten.
+* backport changes to folder_listing and folder_summary_view to plone
+
+
+
+deployment
+==========
+* content icons css based
+* catalog clear and rebuild
+* uninstall linuga plone
+
+content structure
+-----------------
+- impressum
+- kontakt aus metamenu weg
+--> check it for live site too!
+
+
+
+
 ie html5 javascript not needed ATM
 ----------------------------------
   <!--[if lt IE 9]>
@@ -28,33 +86,21 @@ geplante Projekte: 4elements (Gudrun informiert Imre), elevate (Mak), Lendwirbel
 An Hannes: cool wäre eine Unterscheidung zwischen Themenschwerpunkten, Festvalbegleitung, Eigene Projekte sowie die Ordnung nach Jahreszahlen. Schön wäre es, wenn man das dann danach sortieren könnte.
 
 
-
-deployment
-==========
-catalog clear and rebuild
-
 WHAT NEXT?
 ==========
 
-* reverse order of in folders news article, and in other places
-* programmverwaltungslink unter /programm verlinkt nicht.
-* metamenu active states
 OK * footer
 
-
 OK * content icons css based
-
 
 OK impressum
 OK kontakt aus metamenu weg
 --> check it for live site too!
 
-
 deliverance fixes
 OK 1) the policy for when subrequests to Deliverance's inner URL-space should be sent back out to Deliverance
 OK 2) the headers sent in those subrequests
 OK 3) the DeliveranceMiddleware instance used in deliverance-proxy
-
 
 OK * public.css removed by deliverance (disable grouping), so that backend is
   still styled
@@ -312,7 +358,7 @@ audio/video integration
 
 gallery
 -------
-* collective.js.slimbox2
+NO * collective.js.slimbox2
 OK * collective.gallery
 
 solr suche
@@ -322,7 +368,7 @@ OK * solr integration
 
 tagcloud
 --------
-* tagcloud itself
-* integration mit solr
+NO * tagcloud itself
+NO * integration mit solr
 
 
