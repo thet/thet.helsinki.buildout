@@ -14,18 +14,20 @@ high
 mid
 ---
 * remove LinguaPlone and language viewlet - not needed ATM
-* remove collective.folderishtraverse - bad usability in admin mode
-    * projekte: kein hinzüfügen menü?
-* navigation: new portlet with support for displaying default items
+OK * content type filters, contextually allowed content types
+OK * adapt collective.folderishtraverse - bad usability in admin mode
+OK    * projekte: kein hinzüfügen menü?
+NO * navigation: new portlet with support for displaying default items
 * folder_summary_view: reverse order and customization
 * project nav: alphabetical? in order of start-date? grouped by year?
-* programmverwaltungslink unter /programm verlinkt nicht.
+OK * programmverwaltungslink unter /programm verlinkt nicht.
 * metamenu active states
-* find a place to put teasers in.
+OK * find a place to put teasers in.
 * configure c.gallery to use correct sizes
 * configure all content types, if they don't look appropriate.
-* zettwerk.fullcalendar
+OK * zettwerk.fullcalendar
 * collective.flowplayer
+OK * display gernam html titles for program area
 
 projekte
 ........
@@ -42,6 +44,123 @@ low
 * teaser edit screen importance displays only number
 * collective.folderishtypes: let CT derive all other interfaces too... currently they are overwritten.
 * backport changes to folder_listing and folder_summary_view to plone
+
+
+
+BUGS
+====
+
+zettwerk.fullcalendar view -> html entities are escaped again. problem with
+deliverance?
+
+2011-05-09 17:54:51 ERROR portlets Error while rendering <plone.app.portlets.manager.ColumnPortletManagerRenderer object at 0xd2747ec>
+Traceback (most recent call last):
+  File "/home/thet/.buildout/eggs/plone.app.portlets-2.0.3-py2.6.egg/plone/app/portlets/manager.py", line 59, in safe_render
+    return portlet_renderer.render()
+  File "/home/thet/.buildout/eggs/Zope2-2.12.17-py2.6-linux-i686.egg/Products/Five/browser/pagetemplatefile.py", line 126, in __call__
+    return self.im_func(im_self, *args, **kw)
+  File "/home/thet/.buildout/eggs/Zope2-2.12.17-py2.6-linux-i686.egg/Products/Five/browser/pagetemplatefile.py", line 60, in __call__
+    sourceAnnotations=getattr(debug_flags, 'sourceAnnotations', 0),
+  File "/home/thet/.buildout/eggs/zope.pagetemplate-3.5.2-py2.6.egg/zope/pagetemplate/pagetemplate.py", line 113, in pt_render
+    strictinsert=0, sourceAnnotations=sourceAnnotations)()
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 271, in __call__
+    self.interpret(self.program)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 531, in do_optTag_tal
+    self.no_tag(stuff[-2], stuff[-1])
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 513, in no_tag
+    self.interpret(program)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 852, in do_condition
+    self.interpret(block)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 821, in do_loop_tal
+    self.interpret(block)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 533, in do_optTag_tal
+    self.do_optTag(stuff)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 518, in do_optTag
+    return self.no_tag(start, program)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 513, in no_tag
+    self.interpret(program)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 531, in do_optTag_tal
+    self.no_tag(stuff[-2], stuff[-1])
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 513, in no_tag
+    self.interpret(program)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 343, in interpret
+    handlers[opcode](self, args)
+  File "/home/thet/.buildout/eggs/zope.tal-3.5.2-py2.6.egg/zope/tal/talinterpreter.py", line 742, in do_insertStructure_tal
+    structure = self.engine.evaluateStructure(expr)
+  File "/home/thet/.buildout/eggs/Zope2-2.12.17-py2.6-linux-i686.egg/Products/PageTemplates/Expressions.py", line 220, in evaluateStructure
+    text = super(ZopeContext, self).evaluateStructure(expr)
+  File "/home/thet/.buildout/eggs/zope.tales-3.4.0-py2.6.egg/zope/tales/tales.py", line 696, in evaluate
+    return expression(self)
+  File "/home/thet/.buildout/eggs/zope.tales-3.4.0-py2.6.egg/zope/tales/pythonexpr.py", line 59, in __call__
+    return eval(self._code, vars)
+  File "<string>", line 1, in <module>
+  File "/home/thet/.buildout/eggs/plone.app.blob-1.4-py2.6.egg/plone/app/blob/mixins.py", line 78, in tag
+    return field.tag(self, **kwargs)
+  File "/home/thet/.buildout/eggs/Products.Archetypes-1.6.6-py2.6.egg/Products/Archetypes/Field.py", line 2598, in tag
+    'height="%(height)s" width="%(width)s"' % values
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 26: ordinal not in range(128)
+2011-05-09 17:54:51 ERROR Zope.SiteErrorLog 1304956491.780.398140633129 http://localhost:8880/info/traverse_view
+Traceback (innermost last):
+  Module plone.app.portlets.manager, line 59, in safe_render
+  Module Products.Five.browser.pagetemplatefile, line 126, in __call__
+  Module Products.Five.browser.pagetemplatefile, line 60, in __call__
+  Module zope.pagetemplate.pagetemplate, line 113, in pt_render
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 220, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: /home/thet/dev/helsinki-web/thet.helsinki.buildout/src/collective.gallery/collective/gallery/portlets/show_galleries.pt
+   - Line 24, Column 12
+   - Expression: <PythonExpr (picture.tag(scale=view.image_scale))>
+   - Names:
+      {'args': (),
+       'container': <ATFolder at /radio-helsinki/helsinki/info>,
+       'context': <ATFolder at /radio-helsinki/helsinki/info>,
+       'default': <object object at 0xb77d6520>,
+       'here': <ATFolder at /radio-helsinki/helsinki/info>,
+       'loop': {},
+       'nothing': None,
+       'options': {},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xd26f464>,
+       'request': <HTTPRequest, URL=http://localhost:8880/info/traverse_view>,
+       'root': <Application at >,
+       'template': <Products.Five.browser.pagetemplatefile.ViewPageTemplateFile object at 0xa80c1ac>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>,
+       'view': <collective.gallery.portlets.show_galleries.Renderer object at 0xd1957cc>,
+       'views': <Products.Five.browser.pagetemplatefile.ViewMapper object at 0xd276fac>}
+  Module zope.tales.pythonexpr, line 59, in __call__
+   - __traceback_info__: (picture.tag(scale=view.image_scale))
+  Module <string>, line 1, in <module>
+  Module plone.app.blob.mixins, line 78, in tag
+  Module Products.Archetypes.Field, line 2598, in tag
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 26: ordinal not in range(128)
+
 
 
 
