@@ -21,7 +21,7 @@ PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="Starts Deliverance Proxy"
 NAME=deliverance-${:name}
 DAEMON=${buildout:bin-directory}/deliverance-proxy
-DAEMON_ARGS="${theme-dir}"
+DAEMON_ARGS="${:rules}"
 PIDFILE=${root-dir}/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 
