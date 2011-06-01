@@ -2,23 +2,31 @@
 Radio Helsinki Website TODO
 ===========================
 
+deployment
+==========
+* content icons css based
+* catalog clear and rebuild
+* uninstall linuga plone
+
 TODO fin
 ========
 
 high
 ----
-* now playing
+Ok * now playing
 * solr django/plone integration
 * https login
 
 mid
 ---
-* remove LinguaPlone and language viewlet - not needed ATM
+* facebook portlet
+OK * remove LinguaPlone and language viewlet - not needed ATM
 OK * content type filters, contextually allowed content types
 OK * adapt collective.folderishtraverse - bad usability in admin mode
 OK    * projekte: kein hinzüfügen menü?
 NO * navigation: new portlet with support for displaying default items
-* folder_summary_view: reverse order and customization
+OK * topic/news reverse order
+* folder summary views: layout customization
 * project nav: alphabetical? in order of start-date? grouped by year?
 OK * programmverwaltungslink unter /programm verlinkt nicht.
 * metamenu active states
@@ -163,12 +171,6 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 26: ordinal
 
 
 
-
-deployment
-==========
-* content icons css based
-* catalog clear and rebuild
-* uninstall linuga plone
 
 content structure
 -----------------
