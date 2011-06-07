@@ -4,6 +4,9 @@ Radio Helsinki Website TODO
 
 deployment
 ==========
+* delete all topics, let them be created by setup_content_structure GS step.
+* navigation-main, navigation-projekte portlet names. include top für
+  navigation-projekte ausschalten
 * content icons css based
 * catalog clear and rebuild
 * uninstall linuga plone
@@ -36,6 +39,7 @@ OK * find a place to put teasers in.
 OK * zettwerk.fullcalendar
 * collective.flowplayer
 OK * display gernam html titles for program area
+OK * folderish_summary_view ohne bilder -> <img> tag+eigenartiges layout
 
 projekte
 ........
