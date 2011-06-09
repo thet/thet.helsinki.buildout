@@ -4,6 +4,8 @@ Radio Helsinki Website TODO
 
 deployment
 ==========
+* import portlets.xml, reorder right column at /news, /info/mitmachen,
+  /info/unterstutzen
 * check disqus urls and settings
 OK * delete all topics, let them be created by setup_content_structure GS step.
 OK * navigation-main, navigation-projekte portlet names. include top für
@@ -23,27 +25,27 @@ Ok * now playing
 
 mid
 ---
-* nowplaying calendar widget
-* facebook portlet
+OK * nowplaying calendar widget
+OK * facebook portlet
 OK * remove LinguaPlone and language viewlet - not needed ATM
 OK * content type filters, contextually allowed content types
 OK * adapt collective.folderishtraverse - bad usability in admin mode
 OK    * projekte: kein hinzüfügen menü?
 NO * navigation: new portlet with support for displaying default items
 OK * topic/news reverse order
-* folder summary views: layout customization
-* project nav: alphabetical? in order of start-date? grouped by year?
+OK * folder summary views: layout customization
+OK * project nav: alphabetical? in order of start-date? grouped by year?
 OK * programmverwaltungslink unter /programm verlinkt nicht.
 * metamenu active states
 OK * find a place to put teasers in.
 * configure c.gallery to use correct sizes
-* configure all content types, if they don't look appropriate.
+OK * configure all content types, if they don't look appropriate.
 OK * zettwerk.fullcalendar
 * collective.flowplayer
 OK * display gernam html titles for program area
 OK * folderish_summary_view ohne bilder -> <img> tag+eigenartiges layout
 OK * disqus integration
-* styling
+OK * styling
 
 projekte
 ........
