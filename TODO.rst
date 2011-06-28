@@ -23,6 +23,10 @@ Ok * now playing
 * solr django/plone integration
 * https login
 
+* scrolling text for now playing
+* weekview display
+
+
 mid
 ---
 OK * nowplaying calendar widget
