@@ -2,11 +2,12 @@
 Radio Helsinki Website TODO
 ===========================
 
+
 deployment
 ==========
 * import portlets.xml, reorder right column at /news, /info/mitmachen,
   /info/unterstutzen
-* check disqus urls and settings
+Ok * check disqus urls and settings
 OK * delete all topics, let them be created by setup_content_structure GS step.
 OK * navigation-main, navigation-projekte portlet names. include top für
   navigation-projekte ausschalten
@@ -17,14 +18,25 @@ OK * uninstall linuga plone
 TODO fin
 ========
 
+* https login
+* scrolling text for now playing
+
 high
 ----
 Ok * now playing
-* solr django/plone integration
-* https login
+OK * chameleon integration
 
-* scrolling text for now playing
-* weekview display
+OBSOLETE * solr django/plone integration
+OK * google custom search
+OK * solr deintegration
+
+OK * weekview display
+
+OK * ein datum im geoeffneten tipp wär nicht schlecht.
+OK * tipptitel als liste für die sendungen sind spitze.
+OK * könnt ihr das nach datum absteigend ordnen? das wär noch besser.
+Ok * /program/static via apache config. django.views.static.serve -> security
+  risc and ineffecient: https://docs.djangoproject.com/en/1.2/howto/static-files/#the-big-fat-disclaimer
 
 
 mid
