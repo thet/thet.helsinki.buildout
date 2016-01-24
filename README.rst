@@ -1,35 +1,30 @@
 thet.helsinki.buildout
 ======================
 
-This is the base package of the website for Radio Helsinki - Freies Radio Graz.
-It will install all dependencies automatically.
+Buildout for Radio Helsinki - Freies Radio Graz.
 
 Prerequisite
 ------------
-* Python 2.6 installed. Don't use your Operating System's Python version
-  directly. Better create a Sandbox with Virtualenv (see [1]) or use [2].
+
+- Python 2.7
+- Virtualenv
   
-  If you have problems installing Python on your System you may use a buildout
-  to build python, like this one [2] (tested on linux and OSX)
+Install
+-------
 
+::
+    $ virtualenv .
+    $ ./bin/pip intall -U setuptools pip zc.buildout
+    $ ./bin/buildout -c dev.cfg  # for Development
+or::
+    $ ./bin/buildout -c deploy.cfg  # for live installation
 
-Buildout configurations
------------------------
-dev.cfg - Development version
-deploy.cfg - Deployment version
+Start
+-----
 
-How to install
---------------
-$ python bootstrap.py -d -c dev.cfg
-$ ./bin/buildout -c dev.cfg
-$ ./bin/solr-instance start # Solr search server
-$ ./bin/zeoserver start # Zope Enterprise Objects Database Server
-$ ./bin/instance fg # Zope instance, foreground mode
+::
 
-* Then Point your webbrowser to http://localhost:8080/ (username admin,
-  password admin) and install a Plone instance.
+    $ ./bin/zeoserver start
+    $ ./bin/instance fg
+    $ google-chrome http://localhost:8080/
 
-References
-----------
-[1] http://pypi.python.org/pypi/virtualenv
-[2] https://svn.plone.org/svn/collective/buildout/bda-naked-python/
