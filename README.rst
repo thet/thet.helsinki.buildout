@@ -47,5 +47,7 @@ Upgrade 01/2016
 - Remove "Teaser" from metaTypesNotToList in portal_properties/navtree_properties
 
 - Run LinguaPlone uninstall profile
+- Open http://localhost:8080/radio-helsinki/helsinki/@@fix-persistent-utilities and remove all LinguaPlone references.
+
 
 
