@@ -6,6 +6,7 @@
 *~
 .*
 bin
+buildout.cfg
 dev
 develop-eggs
 devpackages/
@@ -15,6 +16,7 @@ eggs-patches
 include/
 lib/
 lib64
+packages/
 parts
 pip-selfcheck.json
 src
